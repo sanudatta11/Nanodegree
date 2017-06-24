@@ -21,3 +21,4 @@ rowhit = Parent("Swami", "Dark Brown")
 yogi = Child("Swami", "Brown", 10)
 rowhit.show_info()
 yogi.show_info()
+rowhit.last_name
