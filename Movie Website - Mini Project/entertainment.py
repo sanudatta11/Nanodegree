@@ -18,3 +18,4 @@ yjhd = media.Movie("YJHD",
 
 movies = [toy_story, avatar, yjhd]
 fresh_tomatoes.open_movies_page(movies)
+
