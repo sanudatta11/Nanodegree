@@ -1,8 +1,10 @@
 Source:
-This code snippet can be cloned or downloaded from github: https://github.com/rowhitswami/Nanodegree/tree/master/Python%20Final%20Project
+This code snippet can be cloned or downloaded from github and completely free of use/distribution for commericial and professional purpose: 
+https://github.com/rowhitswami/Nanodegree/tree/master/Python%20Final%20Project
+
+** "fresh_tomatoes.py" is the property of respective owner.
 
 User need to install Python 2.7 or above to run this program.
-
 To install Python:
 
 ---->>>> FOR WINDOWS <<<<----
