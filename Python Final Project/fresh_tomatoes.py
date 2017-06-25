@@ -53,6 +53,20 @@ main_page_head = '''
             top: 0;
             background-color: white;
         }
+           .middle {
+          opacity: 0;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%)
+        }
+        .movie-tile:hover .middle {
+          opacity: 1;
+        }
+        .movie-tile:hover > img{
+        	opacity: 0.5;
+        }
     </style>
     <script type="text/javascript" charset="utf-8">
         // Pause the video when the modal is closed
@@ -105,7 +119,7 @@ main_page_content = '''
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers</a>
+            <a class="navbar-brand" href="#">My Favourite Movie Trailers</a>
           </div>
         </div>
       </div>
@@ -121,6 +135,9 @@ main_page_content = '''
 movie_tile_content = '''
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
     <img src="{poster_image_url}" width="220" height="342">
+    <div class="middle">
+        <img src="https://png.icons8.com/circled-play/ios7/1600" width="100" height="100" alt="Play">
+      </div>
     <h2>{movie_title}</h2>
 </div>
 '''

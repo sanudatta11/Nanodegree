@@ -1,6 +1,7 @@
 import media
 import fresh_tomatoes
 
+#creating the list of movie object by calling the constructor to instantiate movie objects
 tubelight = media.Movie("Tubelight",
              "https://upload.wikimedia.org/wikipedia/en/0/04/Tubelight_Poster.jpg",
              "https://www.youtube.com/watch?v=PGQRNKHJwH4&vl=en")
@@ -24,10 +25,13 @@ rockstar = media.Movie("Rockstar",
             "https://www.youtube.com/watch?v=rHsesDDDaa4")
 barfi = media.Movie("Barfi",
          "https://upload.wikimedia.org/wikipedia/en/2/2e/Barfi%21_poster.jpg",
-         "https://www.youtube.com/watch?v=nQ3FYUgSjC8")
+         "https://www.youtube.com/watch?v=Y5MRdAhLTbc")
 tamasha = media.Movie("Tamasha",
            "https://cdn.pinkvilla.com/files/styles/contentpreview/public/CPPUFYYUYAA9Snp.jpg?itok=knLTFxRR",
            "https://www.youtube.com/watch?v=o-e5eWVCzx8")
 
+#storing the list of movie objects in variable
 movies = [tubelight, bahubali, raees, phillauri, ADHM, YJHD, rockstar, barfi, tamasha]
+
+#passing the list of movies to generate the webpage
 fresh_tomatoes.open_movies_page(movies)
